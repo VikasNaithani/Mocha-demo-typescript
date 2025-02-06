@@ -1,4 +1,4 @@
-export const markdownContent = `# Markdown Syntax Showcase
+module.exports = `# Markdown Syntax Showcase
 
 ## Headers
 ### Different Header Levels

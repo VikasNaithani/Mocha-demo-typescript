@@ -1,6 +1,6 @@
 const assert = require("assert");
 const { qase } = require("mocha-qase-reporter/mocha");
-const { markdownContent } = require("./markdownContent");
+const markdownContent = require("./markdownContent");
 
 describe("Example: fields.spec.js Test cases with field: Priority", function () {
   it("Priority = low", function () {
