@@ -1,0 +1,33 @@
+{
+  "name": "qase-mocha",
+  "version": "1.0",
+  "description": "A demo repository with Examples, for troubleshooting problems and for feature requests.",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "QASE_MODE=testops npx mocha test/examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskmnrpt/qase-mocha.git"
+  },
+  "keywords": [
+    "qase-mocha",
+    "qaseio",
+    "qase-tms",
+    "qase-javascript"
+  ],
+  "author": "Qase Support",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/cskmnrpt/qase-mocha/issues"
+  },
+  "homepage": "https://github.com/cskmnrpt/qase-mocha#readme",
+  "devDependencies": {
+    "mocha": "^11.1.0",
+    "mocha-qase-reporter": "^1.0.0-beta.5",
+    "prettier": "^3.4.2"
+  }
+}
