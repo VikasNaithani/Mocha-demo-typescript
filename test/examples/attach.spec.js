@@ -23,3 +23,15 @@ describe("Example: attach.spec.js", function () {
     assert.strictEqual(1, 1);
   });
 });
+
+/**
+ * To enable attachments, make sure to add the following option to your `qase.config.json`
+ *
+ * ```json
+ * {
+ *     "testops": {
+ *        "uploadAttachments": true,
+ *     }
+ * }
+ * ```
+ */
