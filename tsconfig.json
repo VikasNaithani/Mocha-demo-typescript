@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "node16",
+    "moduleResolution": "node16", // ✅ critical fix
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["mocha", "node"],
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["test/**/*.ts", ".mocharc.js"]
+}
